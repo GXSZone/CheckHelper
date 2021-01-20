@@ -2,8 +2,7 @@ package com.luwei.checkhelperdemo;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.widget.ProgressBar;
+import androidx.annotation.Nullable;
 
 import com.luwei.checkhelper.Interceptor;
 import com.luwei.checkhelper.Stream;

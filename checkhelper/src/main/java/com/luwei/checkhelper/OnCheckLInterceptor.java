@@ -1,7 +1,6 @@
 package com.luwei.checkhelper;
 
-import android.support.annotation.NonNull;
-import android.util.Log;
+import androidx.annotation.NonNull;
 
 import java.util.List;
 

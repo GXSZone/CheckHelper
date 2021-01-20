@@ -1,6 +1,6 @@
 package com.luwei.checkhelper;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -31,6 +31,7 @@ public class MultiCheckHelper extends CheckHelper {
         });
     }
 
+    @Override
     @SuppressWarnings("unchecked")
     public void add(Object d) {
         Set<Object> set = (Set<Object>) mMap.get(d.getClass());
@@ -41,6 +42,7 @@ public class MultiCheckHelper extends CheckHelper {
         set.add(d);
     }
 
+    @Override
     public void remove(Object d) {
         Set set = mMap.get(d.getClass());
         if (set != null) {
@@ -139,6 +141,7 @@ public class MultiCheckHelper extends CheckHelper {
         return (Set<T>) mMap.get(type);
     }
 
+    @Override
     public Set<Object> getChecked() {
         Set<Object> set = new HashSet<>();
         for (Set set1 : mMap.values()) {

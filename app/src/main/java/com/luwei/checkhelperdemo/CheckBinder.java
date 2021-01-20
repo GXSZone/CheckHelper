@@ -1,19 +1,14 @@
 package com.luwei.checkhelperdemo;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.luwei.checkhelper.CheckHelper;
-import com.luwei.checkhelper.SingleCheckHelper;
 import com.luwei.recyclerview.adapter.extension.LwItemBinder;
 import com.luwei.recyclerview.adapter.extension.LwViewHolder;
-import com.luwei.recyclerview.adapter.multitype.Items;
-
-import java.util.List;
 
 /**
  * Created by Mr_Zeng

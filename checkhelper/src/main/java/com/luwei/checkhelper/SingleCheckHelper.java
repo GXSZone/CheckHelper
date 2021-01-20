@@ -1,6 +1,6 @@
 package com.luwei.checkhelper;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 
 /**
@@ -120,6 +120,7 @@ public class SingleCheckHelper extends CheckHelper {
         this.canCancel = canCancel;
     }
 
+    @Override
     public <T> T getChecked() {
         return (T) d;
     }

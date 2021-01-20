@@ -7,7 +7,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath 'com.android.tools.build:gradle:4.0.2'
         //1.自动化maven打包插件
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
 

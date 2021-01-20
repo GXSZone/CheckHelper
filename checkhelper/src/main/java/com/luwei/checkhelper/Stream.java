@@ -1,6 +1,6 @@
 package com.luwei.checkhelper;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by Mr_Zeng

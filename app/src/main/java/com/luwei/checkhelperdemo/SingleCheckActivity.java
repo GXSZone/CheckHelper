@@ -1,20 +1,18 @@
 package com.luwei.checkhelperdemo;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.widget.Toast;
 
 import com.luwei.checkhelper.CheckHelper;
-import com.luwei.checkhelper.MultiCheckHelper;
 import com.luwei.checkhelper.SingleCheckHelper;
 import com.luwei.recyclerview.adapter.extension.LwViewHolder;
 import com.luwei.recyclerview.adapter.multitype.Items;
 import com.luwei.recyclerview.adapter.multitype.LwAdapter;
 
-import java.util.List;
 import java.util.Locale;
 
 /**
