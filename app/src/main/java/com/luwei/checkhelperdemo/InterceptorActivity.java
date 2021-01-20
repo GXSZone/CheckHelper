@@ -4,8 +4,8 @@ import android.app.ProgressDialog;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 
-import com.luwei.checkhelper.Interceptor;
-import com.luwei.checkhelper.Stream;
+import com.gsxzone.checkhelper.Interceptor;
+import com.gsxzone.checkhelper.Stream;
 
 /**
  * Created by Mr_Zeng

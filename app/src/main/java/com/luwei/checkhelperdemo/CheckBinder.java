@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.luwei.checkhelper.CheckHelper;
+import com.gsxzone.checkhelper.CheckHelper;
 import com.luwei.recyclerview.adapter.extension.LwItemBinder;
 import com.luwei.recyclerview.adapter.extension.LwViewHolder;
 

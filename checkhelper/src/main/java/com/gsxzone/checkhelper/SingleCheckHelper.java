@@ -1,7 +1,9 @@
-package com.luwei.checkhelper;
+package com.gsxzone.checkhelper;
 
 import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
+
+import com.luwei.checkhelper.R;
 
 /**
  * Created by Mr_Zeng

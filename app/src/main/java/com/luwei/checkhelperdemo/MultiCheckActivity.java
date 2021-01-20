@@ -8,8 +8,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.Toast;
 
-import com.luwei.checkhelper.CheckHelper;
-import com.luwei.checkhelper.MultiCheckHelper;
+import com.gsxzone.checkhelper.CheckHelper;
+import com.gsxzone.checkhelper.MultiCheckHelper;
 import com.luwei.recyclerview.adapter.extension.LwViewHolder;
 import com.luwei.recyclerview.adapter.multitype.Items;
 import com.luwei.recyclerview.adapter.multitype.LwAdapter;
